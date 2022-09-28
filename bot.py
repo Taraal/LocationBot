@@ -42,14 +42,12 @@ async def storeloc(interaction: discord.Interaction, lon: str, lat: str):
 
         data = json.load(f)
 
-    print(data)
     if uid in data:
         print("WHAT")
         data[uid].append(current_loc)
     else :
         data[uid] = [current_loc]
 
-    print(data)
     with open('loc.json', 'w') as f:
         json.dump(data, f)
 

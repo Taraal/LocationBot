@@ -25,6 +25,19 @@ Generates a Google Maps URL using the locations stored by the User (must be pres
 
 Remove every location stored by you
 
+## Quickstart
+
+You'll need to set an environment variable named `DISCORD_TOKEN`. You can create a test Application and its Bot by visiting [this link](https://discord.com/developers/applications), then paste your token in an `.env` file.
+
+Then, install requirements and run : 
+
+```
+pip install -r requirements.txt
+python bot.py
+```
+
+Any push to the Master branch will result in the automatic deployment of the bot on Heroku.
+
 ## URL
 
 [Add him to your server](https://discord.com/api/oauth2/authorize?client_id=1024794133195399288&permissions=2048&scope=bot)

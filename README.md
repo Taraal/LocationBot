@@ -28,3 +28,9 @@ Remove every location stored by you
 ## URL
 
 [Add him to your server](https://discord.com/api/oauth2/authorize?client_id=1024794133195399288&permissions=2048&scope=bot)
+
+## DEVELOPER
+
+Commands :
+- Install requirements `pip install -r requirements.txt`
+- Start project `python bot.py`

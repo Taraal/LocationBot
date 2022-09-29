@@ -1,9 +1,6 @@
-from dis import dis, disco
-import imp
 import json
 import os
 from datetime import datetime
-from pydoc import cli
 from dotenv import load_dotenv
 import discord
 from discord import app_commands

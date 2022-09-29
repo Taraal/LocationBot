@@ -1,3 +1,4 @@
 .env
 venv
 package-lock.json
+loc.json

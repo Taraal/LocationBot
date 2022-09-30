@@ -16,7 +16,7 @@ def write_file_data(data):
 """
 For the user who's calling bot, if he has only one data stored we will return a single coordinate point.
 If the user has two point we will set up an origin point and a destination point by tracing the travel line between these two points.
-If the user has mor of two points set, the points between first and last point are defined as waypoints.
+If the user has more than two points set, the points between first and last point are defined as waypoints.
 """
 def get_map_url(locations):
     SEARCH_URL = "https://www.google.com/maps/search/?api=1&query="
